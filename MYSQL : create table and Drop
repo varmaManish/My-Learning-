@@ -1,0 +1,14 @@
+Q:How can we create a table in MYSQL
+
+QUERY: Create table Table_name (col_name1 dtype , col_name2 dtype);
+
+Example: Create table Employee ( first_name varchar(20), last_name Varchar(20),Salary int, hire_date date );
+Now, In the example you can clearly see that this querry will make a table by the name of "Employee" of this table it consist some column like "First_name"  with it's Datatype 'Varchar(20)' 
+
+Q: how will we Drop the table?
+
+QUERRY: Drop table Table_name ;
+
+Eample:Drop table Employee ;
+
+Now After executing this Querry you will lose the table or you can say drop the table 
