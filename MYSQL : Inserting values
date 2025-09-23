@@ -2,8 +2,17 @@ Q: How To insert data into Table
 
 We can insert a values into a table by two method which is by Default and Explicit method
 
-BY DEFAULT
+1] BY DEFAULT
 Querry: Insert into table_name values (Col_1 dtype, Col_2 dtype) ;
 
 Example: Insert into Employee Values( emp_code int , Emp_name Varchar(20)) ;
 This method is the Genral method to insert a values in the table 
+
+2] EXPLICIT METHOD
+Querry: Insert into Table_name ( Exlicitly defiine the col_name) Values (Col_name dtype , Col_name dtype);
+
+Example: Insert into Employee (emp_name ) Values ("Manish");
+Here the exlicit means that we specify that the coloumn to be inserted into the table like Emp_name rest of the column would be "NULL" 
+                                        OR
+we can use this when we given the contraint in the column like "Current_date" this gives the prebuilded values 
+
