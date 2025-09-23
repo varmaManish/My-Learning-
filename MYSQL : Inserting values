@@ -1,0 +1,9 @@
+Q: How To insert data into Table 
+
+We can insert a values into a table by two method which is by Default and Explicit method
+
+BY DEFAULT
+Querry: Insert into table_name values (Col_1 dtype, Col_2 dtype) ;
+
+Example: Insert into Employee Values( emp_code int , Emp_name Varchar(20)) ;
+This method is the Genral method to insert a values in the table 
