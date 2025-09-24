@@ -1,1 +1,20 @@
+Q:How to Select the Data From a table
 
+QUERRY: Select * From table_name ;
+Eample :Select * Froom Employee ;
+
+This Querry will gives you all the data of your table here the '*' means you are select all the data from the table but you can also specify the specific column
+by providing the "column_name" 
+
+QUERRY: Select Col_name From table_name;
+Example:Select Emp_code From Employee;
+
+Now,this the querry genrally use for selecting the column from a table 
+But,IF we want to select the data using certain condition like 'a>=b' 
+Here is how can you implement this on your MYSQL workbench or CLI 
+
+QUERRY : Select * from Table_name where Name='manish' ;
+Example:Select * from Employee where Emp_code=1000;
+
+Now, this Querry will return the only data where the name is 'manish'  this is how you can give the conditon in your Querry 
+and the "where"  is the key word of a clause to give the condition 
