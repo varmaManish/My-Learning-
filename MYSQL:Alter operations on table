@@ -1,1 +1,15 @@
+Q:How can be Alter table in MYSQL
+Q:Why we need to Alter any table
+
+Now,If you wants to change something of a pre-existing table or Already formmed table , somthing is like 'Data' or a 'Datatype'
+or 'Adding constraint on the table' or many more But this is  the Genral reason to Alter the table.
+
+let's Take simple Querry for raname the Existing table 'Employee' to Transaction'
+
+Querry:ALter table  OLD_Tabble_name RENAME TO New_Table_name; 
+
+Example: Alter table Employee RENAME TO Transaction;
+
+This Example Demonstrate that the 'Employee' Table is Rename into NEW name Which is Transaction
+
 
