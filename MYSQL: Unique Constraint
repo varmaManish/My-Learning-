@@ -1,1 +1,15 @@
+UNIQUE CONSTRAINT : This is use for maintaining the integrity and uniquess of values in table 
+suppose you Don't want a duplicate entries in your column in this situation or condition you have to use 'Unique constraint'
 
+
+Querry: Create table table_name (col_1 int unique , col_2 Varchar(20) );
+Example: Create table Employees( Emp_code int unique ,Emp_name Vachar(20));
+
+Now this the approch we have to take in the start phase while creating a Table but if you forget to add in you pre-Existing
+Table  then use alter querry to Fix it !
+
+Querry: Alter table Table_name Add constraint Unique( col_name );
+
+Example :Alter table Table_name Add constraint Unique( EMP_code );
+
+This is the Genral way to alter the table 
