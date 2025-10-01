@@ -7,4 +7,5 @@ Querry: Create table Table_name ( COl_1 int primary key ,COL_2 varchar (20) );
 this is the genral method of using primary contraint while making the table
 But,you have already a Already exiistinf table then use alter technique to implement the primary key constraint
 
-Querry: Alter table table add constraint primary key( col_name);
+Querry: Alter table table_name add primary key( col_name) ;
+Querry: Alter table table_name add constraint constraint_name Primary key (column_name) ;
