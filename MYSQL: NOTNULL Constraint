@@ -1,1 +1,17 @@
+Q: What is NotNull Constraint ?
 
+NOTNULL is contraint that is use for making the column connot be the empty while inserting the values in the table 
+and this is the bestPractice for creating the table 
+
+Querry:Create Table Table_name ( col_1 int NOTNULL , Col_2 varchar);
+Example: Create table Employee(Emp_code int NOTNULL,Emp_name Varchar (20));
+
+Now this the demonstration for while creating table in the intial Stage IF we have the 
+Already existing Table and then wants to make any specific column to be NOTNULL
+then we should have to do Alter operations
+
+Querry:Alter Table Table_name Modify column Col_1 int NOTNULL;
+Example: ALTER TABLE EMPLOYEE MODIFY COLUMN EMP_CODE INT NOTNULL ;
+
+Now Above querry will make 'EMP_CODE' column to the NOTNULL 
+also this use only while you have the pre-existing Table
