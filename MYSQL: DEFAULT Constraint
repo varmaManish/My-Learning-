@@ -1,1 +1,16 @@
+Default constraint is a Constraint that used for give or set default value for the specific column 
+suppose ,you have a column named is 'EMP_Code' you want to start the numbering this column by 100 so then you have to use 
+default constraint
 
+Querry: Create table tabee_name (EMP_code int default 100 , EMp_name Varchar(20));
+
+Example:Create table Employee ( Emp_code int default 100 , Emp_Name Varchar(20));
+
+this example illustrate that the above example perfecly show how to implement default constraint
+
+Now, Suppose You have a already existing that but have to set the default to any column of the table 
+so in that condition we  have to alter table
+
+Querry: Alter table table_name Alter Col_name set default value ;
+
+Example:Alter table Employee Alter Emp_code SET Default 500 ;
