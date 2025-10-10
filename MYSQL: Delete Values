@@ -1,1 +1,14 @@
+Delete is used for delete a value  from a table 
+and also use for delete table table 
 
+Querry:Delete From customer ;
+Example: Delete From Employee ;
+
+This querry will delete all the record from the table customer
+we have to delete something specific value then need specifiy the value name by column or ID 
+using where clause
+
+Querry:Delete From Table_name where Col_name='value' ;
+Example: Delete From Employee where Emp_code=45;
+
+Now this Querry will delete the row of the that column where the Emp_code has 45
