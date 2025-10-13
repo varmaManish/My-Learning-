@@ -1,1 +1,14 @@
+Asccending (ASC) keyword is use for make the order of the output would be in asccending order
 
+Querry: Select * from Table_name where col_1=col_2 order by col_1 ASC;
+
+this Querry will give the output in asscending order by column_1
+
+Example:Select EMP_code from Employee where EMP_code>3 order by EMP_code ASC;
+ this example clearly demostrate that the the output would be based on the EMP_code
+in Assending order but there is contiional statement says that the EMP_code would be Greater than 3
+so output would be start form the 3
+
+Now if you use DSC key instead of ASC So this DSC keyword use for dessending order of the outcome 
+like here OUPUT would  be start form the 3,4,5.... like but if you use DSC keyword 
+Start like n-1,n-2,.... like this use this keyword as per the requirement with 'order by' 
