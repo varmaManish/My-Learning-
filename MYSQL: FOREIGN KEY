@@ -1,1 +1,12 @@
+Foreign key act as  bridge between two table It Build the relationship between two table like Parent table and the second is child table 
+Every Foreign key are the Primary key of the table
+ Syntax:
+ suppose parent table:
+Querry : Create table Customer(cust_id int , Trans_id int PRIMARY KEY ,Cust_name varchar(20));
 
+Now in parent table the primary key is set on the Trans_id which means this column will act as a foriegn key in the Another table
+
+suppose a child table:
+Querry: Create table Transaction(trans_name varchar(20), Trans_id int ,foreign key (Trans_id) referenses Customer (Trans_id);
+
+in the child table relationship is builded uisng a Trans_id which is primary key in the parent table and in the child table it will act as foreign key int
