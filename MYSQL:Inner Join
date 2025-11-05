@@ -1,1 +1,13 @@
+the INNER JOIN is keyword That return the Values that are matched ih the table
+It Do not return the unmatched values form the  tables 
+We can use Mutiple INNER JOIN keyword in the single Querry of the MYsql optimizer handle it efficeintly 
 
+QUERRY :
+ Select COL_1 , COL_2 from Table_1 INNER JOIN Table_2 ON Table_1.COL_1=Table_2.COL_2;
+
+this querry will return the same record that consist both the table
+
+PRO TIP for Consider RIGHT Table And Left Table
+
+FROM -----> LEFT table
+INNER JOIN ------> RIGHT Table
