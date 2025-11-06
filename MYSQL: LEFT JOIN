@@ -1,1 +1,11 @@
+LEFT JOIN 
+
+ The LEFT JOIN keyword return all the value form the LEFT table by matching to the RIGHT table 
+if the record is missing from the right table the Mysql Return NULL 
+NOTE: It retrive all the value from the Left Table
+
+Querry:
+select T1.COL_1 ,T2.COL_2 From T1 LEFT JOIN T2 on T1.COL_3=T2.COL_3;
+
+the above  Querry pull in the record from the left table if the right table do not have the approprriate values then  it will give NULL Values
 
