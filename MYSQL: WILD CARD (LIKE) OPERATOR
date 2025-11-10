@@ -1,1 +1,14 @@
+THE WILD CARD OPERATOR
 
+The wild card operator is use for search the patter in the table
+there are two type of operatot
+1) % operator it search the value of the table and it can search multile character at a single ezecution of code 
+2) _ operator it search the only one ,single operator at a time
+
+syntax:
+  Select * From Table_name where Col_search LIKE "a%" ;
+ now this will return the all the value of 'Col_search' that has 'a' character in the starting of the value;
+
+Select * From Table_name where Col_search LIKE "_a%";
+
+now this Querry will return the all the value that contains "a" in the second place ( _ ) in this place all the values are allowed 
