@@ -1,1 +1,24 @@
+Q: What is LIMIT CLAUSE
+LIMIT CLause is the most commaly use Clause to achieve the PAGINATION in webpage
+it Limit the retrived Value in the Specified Limit
 
+Syantax:
+Select * From Table_Name limit 10;
+
+What would happen after executing the code it return the only 10 value
+it also Can be used by using ORDER BY Clause 
+
+Syantax:
+Select * from Tabl_Name ORDER BY COl_NAME ASC LIMIT 10;
+Now this is querry will return the 10 rows by the ACCENDING Order
+
+
+OFFSET Technique
+i would learn about it 
+
+Syantax:
+
+SELECT * FROM customers
+LIMIT <rows_to_fetch> OFFSET <rows_to_skip>;
+
+Select * From Table_Name limit 10 OFFSET 20;
