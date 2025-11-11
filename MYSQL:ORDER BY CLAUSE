@@ -1,1 +1,14 @@
+ORDER BY CLAUSE
+
+ORDER BY CLAUSE is used for sorting the value of the table in a ASCCENDING OR DESSENDING order 
+
+Syntax :
+Select * from TABLE_NAME ORDER BY COL_NAME ASC;
+
+NOW, You can also use the order by a single but it can apply on multiple column
+
+Syantax:
+Select * from TABLE_NAME ORDER BY COL_NAME ASC ,COL_NAME DESC,COL_NAME ASC ;
+now  this Querry sort the table by there respective Order like ASC or DESC;
+
 
